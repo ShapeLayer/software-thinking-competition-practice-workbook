@@ -106,7 +106,7 @@
   #writing-space()
 - 지금은 버팔로가 어떻게 되었나요?
   #writing-space()
-- 이 글의 저자는 어째서 이 글을 작성했을까요?
+- 이 글의 글쓴이는 어째서 이 글을 작성했을까요?
   #writing-space()
 
 #pagebreak()
@@ -197,7 +197,7 @@
 #align(center)[#image("assets/images/plastic-products.jpeg", width: 60%)]
 
 \
-#directive[각 지문의 저자가 주장하고자 하는 내용은 무엇일까요? 각자의 주장을 도식으로 표현해봅시다.]
+#directive[각 지문의 글쓴이가 주장하고자 하는 내용은 무엇일까요? 각자의 주장을 도식으로 표현해봅시다.]
 
 #pagebreak()
 
