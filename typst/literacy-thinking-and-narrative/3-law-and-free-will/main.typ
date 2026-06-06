@@ -57,7 +57,7 @@
 
 #let directive(content) = text(size: 1.2em, content)
 
-#let mask = false
+#let mask = true
 
 #align(center + horizon)[
   #image("assets/images/quokka.jpeg", width: 70%)
