@@ -19,6 +19,7 @@ SW사고력올림피아드(現 AI・SW사고력올림피아드) 대회 준비를
 문해・사고・서술
 - #1 환경문제 ([pdf](./pdf/literacy-thinking-and-narrative_1-environmental-issues.pdf)) ([typst](./typst/literacy-thinking-and-narrative/1-environmental-issues/))
 - #2 층간소음 ([pdf](./pdf/literacy-thinking-and-narrative_2-apartment-noise-issues.pdf)) ([typst](./typst/literacy-thinking-and-narrative/2-apartment-noise-issues/))
+- #3 법과 자유의지 ([pdf](./pdf/literacy-thinking-and-narrative_3-law-and-free-will.pdf)) ([typst](./typst/literacy-thinking-and-narrative/3-law-and-free-will/))
 
 <br />
 
