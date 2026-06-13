@@ -26,3 +26,4 @@ SW사고력올림피아드(現 AI・SW사고력올림피아드) 대회 준비를
 소프트웨어・데이터
 - #1 흐름도 ([pdf](./pdf/software-and-data_1-flowchart.pdf)) ([typst](./typst/software-and-data/1-flowchart/))
 - #2 집합 ([pdf](./pdf/software-and-data_2-set.pdf)) ([typst](./typst/software-and-data/2-set/))
+- #3 오토마타 ([pdf](./pdf/software-and-data_3-automata.pdf)) ([typst](./typst/software-and-data/3-automata/))
