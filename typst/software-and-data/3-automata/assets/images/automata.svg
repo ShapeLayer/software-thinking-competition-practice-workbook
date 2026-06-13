@@ -1,0 +1,94 @@
+<svg width="700" height="350" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- States (circles) -->
+  <circle cx="100" cy="150" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="100" y="155" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">0원</text>
+  
+  <circle cx="250" cy="100" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="250" y="105" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">50원</text>
+  
+  <circle cx="250" cy="250" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="250" y="255" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">100원</text>
+  
+  <circle cx="400" cy="100" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="400" y="105" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">150원</text>
+  
+  <circle cx="400" cy="250" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="400" y="255" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">200원</text>
+  
+  <circle cx="550" cy="100" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="550" y="105" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">250원</text>
+  
+  <circle cx="550" cy="250" r="40" fill="none" stroke="black" stroke-width="2"></circle>
+  <text x="550" y="255" text-anchor="middle" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" fill="black">300원+</text>
+  
+  <!-- Double circle for accepting state -->
+  <circle cx="550" cy="250" r="50" fill="none" stroke="black" stroke-width="2"></circle>
+  
+  <!-- Start arrow -->
+  <path d="M 40 150 L 60 150" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  
+  <!-- 0원 to 50원 (50원 투입) -->
+  <path d="M 140 140 Q 195 110 210 110" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="150" y="105" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 0원 to 100원 (100원 투입) -->
+  <path d="M 140 160 Q 195 210 210 230" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="140" y="210" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- 50원 to 100원 (50원 투입) -->
+  <path d="M 250 140 L 250 210" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="265" y="175" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 50원 to 150원 (100원 투입) -->
+  <path d="M 285 95 Q 340 80 360 95" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="320" y="75" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- 100원 to 150원 (50원 투입) -->
+  <path d="M 285 235 Q 340 180 360 135" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="330" y="200" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 100원 to 200원 (100원 투입) -->
+  <path d="M 290 250 L 360 250" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="305" y="265" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- 150원 to 200원 (50원 투입) -->
+  <path d="M 400 140 L 400 210" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="415" y="175" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 150원 to 250원 (100원 투입) -->
+  <path d="M 435 95 Q 490 80 510 95" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="470" y="75" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- 200원 to 250원 (50원 투입) -->
+  <path d="M 435 235 Q 490 180 510 135" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="480" y="200" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 200원 to 300원+ (100원 투입) -->
+  <path d="M 440 250 L 500 250" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="445" y="265" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- 250원 to 300원+ (50원 투입) -->
+  <path d="M 550 140 L 550 210" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="520" y="175" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">50원</text>
+  
+  <!-- 250원 to 300원+ (100원 투입) -->
+  <path d="M 580 100 Q 610 150 580 200" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="600" y="150" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">100원</text>
+  
+  <!-- Self-loop on 300원+ (출력: 음료수) -->
+  <path d="M 590 220 Q 650 150 590 280" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path>
+  <text x="620" y="250" font-family="Apple System Font, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="black">음료 출력</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"></polygon>
+    </marker>
+  </defs>
+  
+  
+  
+  
+  
+  
+</svg>
